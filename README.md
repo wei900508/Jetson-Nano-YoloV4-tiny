@@ -20,7 +20,7 @@
 
 使用git clone 指令將本項目克隆到Jetson Nano 中:
 ```bash=
-git clone wei900508/Jetson-Nano-YoloV4-tiny
+git clone https://github.com/wei900508/Jetson-Nano-YoloV4-tiny.git
 ```
 :::info
 若要使用自己的圖片
