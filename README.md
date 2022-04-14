@@ -334,6 +334,12 @@ cd /darknet
 ```
 
 :::info
+將 LD_LIBRARY_PATH 更改為此後它起作用了：
+export LD_LIBRARY_PATH=/usr/local/cuda-XX.X/lib64:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+:::
+
+:::info
 什麼時候可以結束訓練？
 darknet 文件提到訓練時 avg_loss 介於 0.05(小模型、簡易資料集) ~ 3.0(大模型、複雜資料集) 即可中止訓練，它會將權重存到 darknet/backup 資料夾 (每 1000 iteration 會自動存一次，中斷訓練前也會存最後一次)
 :::
