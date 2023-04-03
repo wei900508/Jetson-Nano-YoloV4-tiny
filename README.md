@@ -329,7 +329,7 @@ cd ./dev ; ls -d "$PWD"/*.jpg > dev.txt
 :::
 
 ```bash=
-cd /darknet
+cd ./darknet
 ./darknet detector train ../config/mask.data ../config/yolov4-tiny-mask.cfg ../config/weights/yolov4-tiny.conv.29
 ```
 
